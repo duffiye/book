@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-11T06:28:08.606Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="tXZAaFO_D0ja-TbawWLQ" version="20.5.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-11-14T02:09:55.094Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="rK3QglE4PAbGlvi1gGOG" version="20.5.3" type="github" pages="2">
   <diagram name="架构" id="efa7a0a1-bf9b-a30e-e6df-94a7791c09e9">
-    <mxGraphModel dx="1234" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1234" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -379,7 +379,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="lPM4pmnN7MBSAjoaa-aI" name="表结构">
-    <mxGraphModel dx="881" dy="2180" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1234" dy="2362" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -450,7 +450,7 @@
           <mxGeometry x="1010" y="420" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="MtZSlMMsmn_D86SxY0bk-8" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;sys_menu&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;field1 = value1&lt;br&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" parent="1" vertex="1">
-          <mxGeometry x="1260" y="710" width="160" height="80" as="geometry" />
+          <mxGeometry x="1120" y="1030" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="MtZSlMMsmn_D86SxY0bk-9" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;sys_role&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;field1 = value1&lt;br&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" parent="1" vertex="1">
           <mxGeometry x="800" y="710" width="160" height="80" as="geometry" />
@@ -469,7 +469,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="MtZSlMMsmn_D86SxY0bk-10" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;sys_action_entry&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;field1 = value1&lt;br&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" parent="1" vertex="1">
-          <mxGeometry x="1500" y="720" width="110" height="80" as="geometry" />
+          <mxGeometry x="1320" y="1020" width="110" height="80" as="geometry" />
         </mxCell>
         <mxCell id="MtZSlMMsmn_D86SxY0bk-17" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=diamondThin;startFill=0;endArrow=open;endFill=0;startSize=14;endSize=12;" parent="1" source="MtZSlMMsmn_D86SxY0bk-16" target="MtZSlMMsmn_D86SxY0bk-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -526,7 +526,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="MtZSlMMsmn_D86SxY0bk-33" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;mch_merchant&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;field1 = value1&lt;br&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" parent="1" vertex="1">
-          <mxGeometry x="1430" y="-120" width="160" height="80" as="geometry" />
+          <mxGeometry x="1420" y="-250" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="MtZSlMMsmn_D86SxY0bk-40" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=diamondThin;startFill=0;endArrow=open;endFill=0;startSize=14;endSize=12;" parent="1" source="MtZSlMMsmn_D86SxY0bk-37" target="MtZSlMMsmn_D86SxY0bk-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -542,112 +542,163 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="MtZSlMMsmn_D86SxY0bk-37" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;mch_store&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;field1 = value1&lt;br&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" parent="1" vertex="1">
-          <mxGeometry x="1760" y="-130" width="130" height="80" as="geometry" />
+          <mxGeometry x="1700" y="-340" width="130" height="80" as="geometry" />
         </mxCell>
         <mxCell id="MtZSlMMsmn_D86SxY0bk-43" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;sys_tenant_merchant_store_map&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;field1 = value1&lt;br&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" parent="1" vertex="1">
           <mxGeometry x="530" y="70" width="250" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="3f7_yQCQFoVN_8cQ-DYC-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;prd_category&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;merchant_code&lt;br&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" vertex="1" parent="1">
-          <mxGeometry x="1420" y="130" width="130" height="80" as="geometry" />
+        <mxCell id="3f7_yQCQFoVN_8cQ-DYC-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;prd_brand_basic&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;merchant_code:商户标识&lt;br&gt;code:品牌标识&lt;br&gt;name:品牌名称&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;icon:品牌Logo&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" parent="1" vertex="1">
+          <mxGeometry x="1960" y="-340" width="130" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="3f7_yQCQFoVN_8cQ-DYC-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;prd_brand&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;merchant_code&lt;br&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" vertex="1" parent="1">
-          <mxGeometry x="1580" y="130" width="130" height="80" as="geometry" />
+        <mxCell id="3f7_yQCQFoVN_8cQ-DYC-3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;prd_attr&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;merchant_code:商户标识&lt;br&gt;code:属性标识&lt;br&gt;name:属性名称&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;types:属性类型[规格，售卖，套餐]&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" parent="1" vertex="1">
+          <mxGeometry x="2520" y="80" width="270" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="3f7_yQCQFoVN_8cQ-DYC-3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;prd_attr&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;merchant_code&lt;br&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" vertex="1" parent="1">
-          <mxGeometry x="1730" y="130" width="130" height="80" as="geometry" />
+        <mxCell id="1lYHxRS1IJhIk105t9A8-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3f7_yQCQFoVN_8cQ-DYC-4" target="3f7_yQCQFoVN_8cQ-DYC-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2600" y="-20" />
+              <mxPoint x="2640" y="-20" />
+              <mxPoint x="2640" y="50" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="3f7_yQCQFoVN_8cQ-DYC-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;prd_attr_value&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;merchant_code&lt;br&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" vertex="1" parent="1">
-          <mxGeometry x="1880" y="130" width="130" height="80" as="geometry" />
+        <mxCell id="3f7_yQCQFoVN_8cQ-DYC-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;prd_attr_value&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;merchant_code:商户标识&lt;br&gt;attr_code:属性标识&lt;br&gt;code:属性值标识&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;name:属性值名称&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;attach:备注&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" parent="1" vertex="1">
+          <mxGeometry x="2410" y="-340" width="220" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="3f7_yQCQFoVN_8cQ-DYC-5" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;prd_spu&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;merchant_code&lt;br&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" vertex="1" parent="1">
-          <mxGeometry x="2040" y="130" width="130" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="3f7_yQCQFoVN_8cQ-DYC-6" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;prd_sku&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;merchant_code&lt;br&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" vertex="1" parent="1">
-          <mxGeometry x="2190" y="130" width="130" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="3f7_yQCQFoVN_8cQ-DYC-7" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;prd_category&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;merchant_code&lt;br&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" vertex="1" parent="1">
-          <mxGeometry x="1350" y="330" width="130" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="3f7_yQCQFoVN_8cQ-DYC-8" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;prd_brand&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;merchant_code&lt;br&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" vertex="1" parent="1">
-          <mxGeometry x="1550" y="480" width="130" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="3f7_yQCQFoVN_8cQ-DYC-9" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;prd_attr&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;merchant_code&lt;br&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" vertex="1" parent="1">
-          <mxGeometry x="1730" y="490" width="130" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="3f7_yQCQFoVN_8cQ-DYC-10" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;prd_attr_value&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;merchant_code&lt;br&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" vertex="1" parent="1">
-          <mxGeometry x="1880" y="490" width="130" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="3f7_yQCQFoVN_8cQ-DYC-11" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;prd_spu&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;merchant_code&lt;br&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" vertex="1" parent="1">
-          <mxGeometry x="1350" y="545" width="130" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="3f7_yQCQFoVN_8cQ-DYC-12" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;prd_sku&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;merchant_code&lt;br&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" vertex="1" parent="1">
-          <mxGeometry x="2190" y="490" width="130" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="3f7_yQCQFoVN_8cQ-DYC-13" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;prd_spu_sku_template&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;merchant_code&lt;br&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" vertex="1" parent="1">
-          <mxGeometry x="1760" y="320" width="220" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="3f7_yQCQFoVN_8cQ-DYC-14" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;prd_spu_category_map&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;merchant_code&lt;br&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" vertex="1" parent="1">
-          <mxGeometry x="1300" y="440" width="190" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="3f7_yQCQFoVN_8cQ-DYC-15" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;prd_sku_stock&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;merchant_code&lt;br&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" vertex="1" parent="1">
-          <mxGeometry x="2200" y="625" width="130" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="3f7_yQCQFoVN_8cQ-DYC-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3f7_yQCQFoVN_8cQ-DYC-16" target="3f7_yQCQFoVN_8cQ-DYC-17">
+        <mxCell id="1lYHxRS1IJhIk105t9A8-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3f7_yQCQFoVN_8cQ-DYC-5" target="3f7_yQCQFoVN_8cQ-DYC-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3f7_yQCQFoVN_8cQ-DYC-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3f7_yQCQFoVN_8cQ-DYC-16" target="3f7_yQCQFoVN_8cQ-DYC-19">
+        <mxCell id="3f7_yQCQFoVN_8cQ-DYC-5" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;prd_spu_basic&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;merchant_code:商户标识&lt;br&gt;code:商品标识&lt;br&gt;name:名称&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;icon:图片&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;main_img:详情图片&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;detail:详情&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;types:类型[单规格、多规格、称重]&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" parent="1" vertex="1">
+          <mxGeometry x="1860" y="-80" width="210" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="1lYHxRS1IJhIk105t9A8-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="3f7_yQCQFoVN_8cQ-DYC-6" target="3f7_yQCQFoVN_8cQ-DYC-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3f7_yQCQFoVN_8cQ-DYC-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3f7_yQCQFoVN_8cQ-DYC-16" target="3f7_yQCQFoVN_8cQ-DYC-20">
+        <mxCell id="3f7_yQCQFoVN_8cQ-DYC-6" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;prd_sku&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;merchant_code:商户标识&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;code:商品标识&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;name:商品名称&lt;br&gt;mnemonic_code:助记码&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;bar_code:条码&lt;br&gt;cost_price:成本价&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;selling_price:销售价&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;marketing_price:市场价&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;attrs:属性&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;attach:备注&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;details:详情&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" parent="1" vertex="1">
+          <mxGeometry x="2150" y="50" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="3f7_yQCQFoVN_8cQ-DYC-7" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;prd_category&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;merchant_code:商户标识&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;store_code:门店标识&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;name:分类名称&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;code:分类标识&lt;br&gt;icon:图标&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;label:标签&lt;br&gt;attach:描述&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" parent="1" vertex="1">
+          <mxGeometry x="1390" y="460" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="3f7_yQCQFoVN_8cQ-DYC-8" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;prd_brand&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;merchant_code&lt;br&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" parent="1" vertex="1">
+          <mxGeometry x="1580" y="690" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3f7_yQCQFoVN_8cQ-DYC-9" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;prd_attr&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;merchant_code&lt;br&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" parent="1" vertex="1">
+          <mxGeometry x="1760" y="700" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3f7_yQCQFoVN_8cQ-DYC-10" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;prd_attr_value&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;merchant_code&lt;br&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" parent="1" vertex="1">
+          <mxGeometry x="1910" y="700" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3f7_yQCQFoVN_8cQ-DYC-11" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;prd_spu&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;merchant_code&lt;br&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" parent="1" vertex="1">
+          <mxGeometry x="1380" y="755" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3f7_yQCQFoVN_8cQ-DYC-12" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;prd_sku&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;merchant_code&lt;br&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" parent="1" vertex="1">
+          <mxGeometry x="2220" y="700" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3f7_yQCQFoVN_8cQ-DYC-13" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;prd_spu_sku_template&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;merchant_code&lt;br&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" parent="1" vertex="1">
+          <mxGeometry x="1754" y="510" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3f7_yQCQFoVN_8cQ-DYC-14" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;prd_spu_category_map&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;merchant_code&lt;br&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" parent="1" vertex="1">
+          <mxGeometry x="1330" y="650" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3f7_yQCQFoVN_8cQ-DYC-15" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;prd_sku_stock&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;merchant_code&lt;br&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" parent="1" vertex="1">
+          <mxGeometry x="2230" y="835" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3f7_yQCQFoVN_8cQ-DYC-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3f7_yQCQFoVN_8cQ-DYC-16" target="3f7_yQCQFoVN_8cQ-DYC-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3f7_yQCQFoVN_8cQ-DYC-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="3f7_yQCQFoVN_8cQ-DYC-16" target="3f7_yQCQFoVN_8cQ-DYC-21">
+        <mxCell id="3f7_yQCQFoVN_8cQ-DYC-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="3f7_yQCQFoVN_8cQ-DYC-16" target="3f7_yQCQFoVN_8cQ-DYC-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3f7_yQCQFoVN_8cQ-DYC-16" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;ord_root_order&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;merchant_code&lt;br&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" vertex="1" parent="1">
+        <mxCell id="3f7_yQCQFoVN_8cQ-DYC-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3f7_yQCQFoVN_8cQ-DYC-16" target="3f7_yQCQFoVN_8cQ-DYC-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3f7_yQCQFoVN_8cQ-DYC-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="3f7_yQCQFoVN_8cQ-DYC-16" target="3f7_yQCQFoVN_8cQ-DYC-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3f7_yQCQFoVN_8cQ-DYC-16" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;ord_root_order&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;merchant_code&lt;br&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" parent="1" vertex="1">
           <mxGeometry x="2040" y="990" width="130" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="3f7_yQCQFoVN_8cQ-DYC-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3f7_yQCQFoVN_8cQ-DYC-17" target="3f7_yQCQFoVN_8cQ-DYC-18">
+        <mxCell id="3f7_yQCQFoVN_8cQ-DYC-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="3f7_yQCQFoVN_8cQ-DYC-17" target="3f7_yQCQFoVN_8cQ-DYC-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3f7_yQCQFoVN_8cQ-DYC-17" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;ord_default_order&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;merchant_code&lt;br&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" vertex="1" parent="1">
+        <mxCell id="3f7_yQCQFoVN_8cQ-DYC-17" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;ord_default_order&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;merchant_code&lt;br&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" parent="1" vertex="1">
           <mxGeometry x="1800" y="1145" width="130" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="3f7_yQCQFoVN_8cQ-DYC-18" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;ord_default_item&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;merchant_code&lt;br&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" vertex="1" parent="1">
+        <mxCell id="3f7_yQCQFoVN_8cQ-DYC-18" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;ord_default_item&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;merchant_code&lt;br&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" parent="1" vertex="1">
           <mxGeometry x="1800" y="1250" width="130" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="3f7_yQCQFoVN_8cQ-DYC-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3f7_yQCQFoVN_8cQ-DYC-19" target="3f7_yQCQFoVN_8cQ-DYC-22">
+        <mxCell id="3f7_yQCQFoVN_8cQ-DYC-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3f7_yQCQFoVN_8cQ-DYC-19" target="3f7_yQCQFoVN_8cQ-DYC-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3f7_yQCQFoVN_8cQ-DYC-19" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;ord_takeout_order&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;merchant_code&lt;br&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" vertex="1" parent="1">
+        <mxCell id="3f7_yQCQFoVN_8cQ-DYC-19" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;ord_takeout_order&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;merchant_code&lt;br&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" parent="1" vertex="1">
           <mxGeometry x="1950" y="1130" width="130" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="3f7_yQCQFoVN_8cQ-DYC-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3f7_yQCQFoVN_8cQ-DYC-20" target="3f7_yQCQFoVN_8cQ-DYC-23">
+        <mxCell id="3f7_yQCQFoVN_8cQ-DYC-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="3f7_yQCQFoVN_8cQ-DYC-20" target="3f7_yQCQFoVN_8cQ-DYC-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3f7_yQCQFoVN_8cQ-DYC-20" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;ord_takeout_order&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;merchant_code&lt;br&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" vertex="1" parent="1">
+        <mxCell id="3f7_yQCQFoVN_8cQ-DYC-20" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;ord_takeout_order&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;merchant_code&lt;br&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" parent="1" vertex="1">
           <mxGeometry x="2110" y="1130" width="130" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="3f7_yQCQFoVN_8cQ-DYC-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3f7_yQCQFoVN_8cQ-DYC-21" target="3f7_yQCQFoVN_8cQ-DYC-24">
+        <mxCell id="3f7_yQCQFoVN_8cQ-DYC-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3f7_yQCQFoVN_8cQ-DYC-21" target="3f7_yQCQFoVN_8cQ-DYC-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3f7_yQCQFoVN_8cQ-DYC-21" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;ord_eating_order&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;merchant_code&lt;br&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" vertex="1" parent="1">
+        <mxCell id="3f7_yQCQFoVN_8cQ-DYC-21" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;ord_eating_order&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;merchant_code&lt;br&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" parent="1" vertex="1">
           <mxGeometry x="2260" y="1130" width="130" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="3f7_yQCQFoVN_8cQ-DYC-22" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;ord_takeout_order&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;merchant_code&lt;br&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" vertex="1" parent="1">
+        <mxCell id="3f7_yQCQFoVN_8cQ-DYC-22" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;ord_takeout_order&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;merchant_code&lt;br&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" parent="1" vertex="1">
           <mxGeometry x="1960" y="1250" width="130" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="3f7_yQCQFoVN_8cQ-DYC-23" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;ord_takeout_order&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;merchant_code&lt;br&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" vertex="1" parent="1">
+        <mxCell id="3f7_yQCQFoVN_8cQ-DYC-23" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;ord_takeout_order&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;merchant_code&lt;br&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" parent="1" vertex="1">
           <mxGeometry x="2110" y="1250" width="130" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="3f7_yQCQFoVN_8cQ-DYC-24" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;ord_eating_order&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;merchant_code&lt;br&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" vertex="1" parent="1">
+        <mxCell id="3f7_yQCQFoVN_8cQ-DYC-24" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;ord_eating_order&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;merchant_code&lt;br&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" parent="1" vertex="1">
           <mxGeometry x="2260" y="1250" width="130" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="3f7_yQCQFoVN_8cQ-DYC-33" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;crt_charge&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;购物车&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;merchant_code&lt;br&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" vertex="1" parent="1">
+        <mxCell id="3f7_yQCQFoVN_8cQ-DYC-33" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;crt_charge&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;购物车&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;merchant_code&lt;br&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" parent="1" vertex="1">
           <mxGeometry x="1524" y="1020" width="130" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="3f7_yQCQFoVN_8cQ-DYC-34" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;ord_payment_log&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;merchant_code&lt;br&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" vertex="1" parent="1">
+        <mxCell id="3f7_yQCQFoVN_8cQ-DYC-34" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;ord_payment_log&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;merchant_code&lt;br&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" parent="1" vertex="1">
           <mxGeometry x="2540" y="1115" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1lYHxRS1IJhIk105t9A8-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="1lYHxRS1IJhIk105t9A8-1" target="3f7_yQCQFoVN_8cQ-DYC-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1lYHxRS1IJhIk105t9A8-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1lYHxRS1IJhIk105t9A8-1" target="1lYHxRS1IJhIk105t9A8-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1lYHxRS1IJhIk105t9A8-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;prd_spu_category_basic_map&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;商品分类（1对N）&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;merchant_code:商户标识&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;spu_code:SPU标识&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;category_code:分类标识&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="130" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="1lYHxRS1IJhIk105t9A8-5" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;prd_category_basic&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;merchant_code:商户号&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;name:分类名称&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;code:分类标识&lt;br&gt;icon:图标&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;label:标签&lt;br&gt;attach:描述&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="280" width="210" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="1lYHxRS1IJhIk105t9A8-6" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;prd_channel_basic&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;merchant_code:&lt;br&gt;code:标识&lt;br&gt;name:名称&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="2480" y="322.5" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1lYHxRS1IJhIk105t9A8-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1lYHxRS1IJhIk105t9A8-7" target="1lYHxRS1IJhIk105t9A8-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1lYHxRS1IJhIk105t9A8-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1lYHxRS1IJhIk105t9A8-7" target="1lYHxRS1IJhIk105t9A8-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1lYHxRS1IJhIk105t9A8-7" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;prd_category_channel_basic&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;merchant_code:商户标识&lt;br&gt;category_code:分类&lt;br&gt;channel_code:渠道&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="2120" y="320" width="220" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="1lYHxRS1IJhIk105t9A8-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="1lYHxRS1IJhIk105t9A8-14" target="3f7_yQCQFoVN_8cQ-DYC-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1lYHxRS1IJhIk105t9A8-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1lYHxRS1IJhIk105t9A8-14" target="3f7_yQCQFoVN_8cQ-DYC-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1lYHxRS1IJhIk105t9A8-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="1lYHxRS1IJhIk105t9A8-14" target="3f7_yQCQFoVN_8cQ-DYC-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1lYHxRS1IJhIk105t9A8-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1lYHxRS1IJhIk105t9A8-14" target="3f7_yQCQFoVN_8cQ-DYC-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1lYHxRS1IJhIk105t9A8-14" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;prd_spu_sku_attr_map&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;merchant_code:商户标识&lt;br&gt;spu_code:商品标识&lt;br&gt;sku_code:商品标识&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;attr_code:属性标识&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;attr_name:属性名称&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;attr_value_code:属性值标识&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;attr_value_name:属性值名称&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="2190" y="-240" width="170" height="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
