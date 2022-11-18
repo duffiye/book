@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-14T02:09:55.094Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="rK3QglE4PAbGlvi1gGOG" version="20.5.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-11-18T07:47:07.806Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="qLdL4nWRGevGEvbqPccU" version="20.5.3" type="github" pages="2">
   <diagram name="架构" id="efa7a0a1-bf9b-a30e-e6df-94a7791c09e9">
     <mxGraphModel dx="1234" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -379,7 +379,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="lPM4pmnN7MBSAjoaa-aI" name="表结构">
-    <mxGraphModel dx="1234" dy="2362" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1073" dy="2270" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -544,8 +544,8 @@
         <mxCell id="MtZSlMMsmn_D86SxY0bk-37" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;mch_store&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;field1 = value1&lt;br&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" parent="1" vertex="1">
           <mxGeometry x="1700" y="-340" width="130" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="MtZSlMMsmn_D86SxY0bk-43" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;sys_tenant_merchant_store_map&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;field1 = value1&lt;br&gt;field2 = value2&lt;br&gt;field3 = value3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" parent="1" vertex="1">
-          <mxGeometry x="530" y="70" width="250" height="100" as="geometry" />
+        <mxCell id="MtZSlMMsmn_D86SxY0bk-43" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;sys_tenant_merchant_store_map&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;1:1&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;1:2&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;1;3&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;3:1&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;2:1&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;2;2&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;2-3&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" parent="1" vertex="1">
+          <mxGeometry x="530" y="70" width="250" height="220" as="geometry" />
         </mxCell>
         <mxCell id="3f7_yQCQFoVN_8cQ-DYC-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;prd_brand_basic&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;merchant_code:商户标识&lt;br&gt;code:品牌标识&lt;br&gt;name:品牌名称&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;icon:品牌Logo&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" parent="1" vertex="1">
           <mxGeometry x="1960" y="-340" width="130" height="110" as="geometry" />
@@ -673,6 +673,9 @@
         <mxCell id="1lYHxRS1IJhIk105t9A8-5" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;prd_category_basic&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;merchant_code:商户号&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;name:分类名称&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;code:分类标识&lt;br&gt;icon:图标&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;label:标签&lt;br&gt;attach:描述&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" vertex="1" parent="1">
           <mxGeometry x="1860" y="280" width="210" height="150" as="geometry" />
         </mxCell>
+        <mxCell id="1lYHxRS1IJhIk105t9A8-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1lYHxRS1IJhIk105t9A8-6" target="1lYHxRS1IJhIk105t9A8-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="1lYHxRS1IJhIk105t9A8-6" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;prd_channel_basic&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;merchant_code:&lt;br&gt;code:标识&lt;br&gt;name:名称&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" vertex="1" parent="1">
           <mxGeometry x="2480" y="322.5" width="130" height="80" as="geometry" />
         </mxCell>
@@ -699,6 +702,9 @@
         </mxCell>
         <mxCell id="1lYHxRS1IJhIk105t9A8-14" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;prd_spu_sku_attr_map&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;merchant_code:商户标识&lt;br&gt;spu_code:商品标识&lt;br&gt;sku_code:商品标识&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;attr_code:属性标识&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;attr_name:属性名称&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;attr_value_code:属性值标识&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;attr_value_name:属性值名称&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" vertex="1" parent="1">
           <mxGeometry x="2190" y="-240" width="170" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="1lYHxRS1IJhIk105t9A8-22" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;prd_pricing_structure&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;merchant_code:&lt;br&gt;channel_code:标识&lt;br&gt;sku_code:名称&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="2720" y="332.5" width="130" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
