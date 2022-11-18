@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-18T07:47:07.806Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="qLdL4nWRGevGEvbqPccU" version="20.5.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-11-18T08:53:54.904Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="CN0RKdKg9oj4ejFqhVQ1" version="20.5.3" type="github" pages="2">
   <diagram name="架构" id="efa7a0a1-bf9b-a30e-e6df-94a7791c09e9">
     <mxGraphModel dx="1234" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -703,8 +703,8 @@
         <mxCell id="1lYHxRS1IJhIk105t9A8-14" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;prd_spu_sku_attr_map&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;merchant_code:商户标识&lt;br&gt;spu_code:商品标识&lt;br&gt;sku_code:商品标识&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;attr_code:属性标识&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;attr_name:属性名称&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;attr_value_code:属性值标识&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;attr_value_name:属性值名称&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" vertex="1" parent="1">
           <mxGeometry x="2190" y="-240" width="170" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="1lYHxRS1IJhIk105t9A8-22" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;prd_pricing_structure&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;merchant_code:&lt;br&gt;channel_code:标识&lt;br&gt;sku_code:名称&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" vertex="1" parent="1">
-          <mxGeometry x="2720" y="332.5" width="130" height="80" as="geometry" />
+        <mxCell id="1lYHxRS1IJhIk105t9A8-22" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;prd_pricing_structure&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;（价格体系）&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;merchant_code:&lt;br&gt;channel_code:渠道标识&lt;br&gt;sku_code:商品名称&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="2730" y="300" width="160" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
