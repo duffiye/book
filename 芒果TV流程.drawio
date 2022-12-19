@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-14T07:44:51.951Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="DN8S-lFMFHbiAE-KnouN" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-19T06:16:02.615Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="oiHEH3NHzU8cUVM3jCYq" version="20.6.2" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1234" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -29,7 +29,7 @@
             <mxPoint x="295" y="160" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_kd0HCN2-auPikmjFVuu-6" value="内容鉴权&lt;br&gt;http://119.39.13.149:8082/SPM/Interface/ContentUnicomAuth.action" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3nuBFxr9cyL0pnOWT2aG-8">
+        <mxCell id="_kd0HCN2-auPikmjFVuu-6" value="内容鉴权&lt;br&gt;http://119.39.13.149:8082/SPM/Interface/ContentUnicomAuth.action" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="3nuBFxr9cyL0pnOWT2aG-8" vertex="1" connectable="0">
           <mxGeometry x="-0.1647" relative="1" as="geometry">
             <mxPoint x="25" as="offset" />
           </mxGeometry>
@@ -45,21 +45,21 @@
             <mxPoint x="260" y="257" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_kd0HCN2-auPikmjFVuu-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_kd0HCN2-auPikmjFVuu-1" target="3nuBFxr9cyL0pnOWT2aG-1">
+        <mxCell id="_kd0HCN2-auPikmjFVuu-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_kd0HCN2-auPikmjFVuu-1" target="3nuBFxr9cyL0pnOWT2aG-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_kd0HCN2-auPikmjFVuu-5" value="首页" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_kd0HCN2-auPikmjFVuu-4">
+        <mxCell id="_kd0HCN2-auPikmjFVuu-5" value="首页" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="_kd0HCN2-auPikmjFVuu-4" vertex="1" connectable="0">
           <mxGeometry x="0.1548" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_kd0HCN2-auPikmjFVuu-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+        <mxCell id="_kd0HCN2-auPikmjFVuu-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
           <mxGeometry x="30" y="200" width="40" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_kd0HCN2-auPikmjFVuu-9" value="&lt;h1&gt;FAQ:&lt;/h1&gt;&lt;p&gt;1. 内容鉴权接口怎么获取&lt;/p&gt;&lt;p&gt;userid&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;用户标识&lt;/p&gt;&lt;p&gt;contentcode&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;内容标识&lt;/p&gt;&lt;p&gt;usertoken&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;用户令牌&lt;/p&gt;&lt;p&gt;mac&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;机顶盒mac地址&lt;/p&gt;&lt;p&gt;version&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;APK版本号，YYS开头的&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp; &#39;userid&#39;=&amp;gt;$uid,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &#39;contentcode&#39;=&amp;gt;&#39;D00000001201808151638540022386413&#39;,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &#39;usertoken&#39;=&amp;gt;&#39;56A@tv763220980160222823645824381212&#39;,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &#39;version&#39;=&amp;gt;&#39;YYS.5.2.0.Y28.0.HNLT.0.0_Release_ZTE_4K&#39;,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &#39;mac&#39;=&amp;gt;&#39;4c-0f-c7-b3-37-a9&#39;,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &#39;fromsource&#39;=&amp;gt;5&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;2. 产品294，是不是只有一个？&lt;/p&gt;&lt;p&gt;3. 电竞页面模糊， 内容和移动一致&lt;/p&gt;&lt;p&gt;4.&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="160" y="470" width="420" height="690" as="geometry" />
+        <mxCell id="_kd0HCN2-auPikmjFVuu-9" value="&lt;h1&gt;FAQ:&lt;/h1&gt;&lt;p&gt;1. 内容鉴权接口怎么获取&lt;/p&gt;&lt;p&gt;userid&lt;span style=&quot;&quot;&gt; &lt;/span&gt;用户标识&lt;/p&gt;&lt;p&gt;contentcode&lt;span style=&quot;&quot;&gt; &lt;/span&gt;内容标识&lt;/p&gt;&lt;p&gt;usertoken&lt;span style=&quot;&quot;&gt; &lt;/span&gt;用户令牌&lt;/p&gt;&lt;p&gt;mac&lt;span style=&quot;&quot;&gt; &lt;/span&gt;机顶盒mac地址&lt;/p&gt;&lt;p&gt;version&lt;span style=&quot;&quot;&gt; &lt;/span&gt;APK版本号，YYS开头的&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp; &#39;userid&#39;=&amp;gt;$uid,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &#39;contentcode&#39;=&amp;gt;&#39;D00000001201808151638540022386413&#39;,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &#39;usertoken&#39;=&amp;gt;&#39;56A@tv763220980160222823645824381212&#39;,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &#39;version&#39;=&amp;gt;&#39;YYS.5.2.0.Y28.0.HNLT.0.0_Release_ZTE_4K&#39;,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &#39;mac&#39;=&amp;gt;&#39;4c-0f-c7-b3-37-a9&#39;,&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &#39;fromsource&#39;=&amp;gt;5&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;2. 产品294，是不是只有一个？&lt;/p&gt;&lt;p&gt;3. 电竞页面模糊， 内容和移动一致&lt;/p&gt;&lt;p&gt;4. 订购页面地址，看代码是跳转http://119.39.13.155:8080/en/jump_order/index.html，文档是&lt;a style=&quot;font-family: 等线; font-size: 10.5pt; text-align: justify; background-color: initial;&quot; href=&quot;http://mgweb.hn165.com:8080/en/zbw/order/index.html&quot;&gt;&lt;u&gt;&lt;span style=&quot;color: rgb(128, 0, 128);&quot; class=&quot;16&quot;&gt;http://mgweb.hn165.com:8080/en/zbw/order/index.html&lt;/span&gt;&lt;/u&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;5. 默认开了二次验证&lt;/p&gt;&lt;p&gt;MAC:28:5B:0C:32:0E:76&lt;/p&gt;&lt;p&gt;SN:4359536882207120733&lt;/p&gt;&lt;p&gt;名称：智能网络机顶盒&lt;/p&gt;&lt;p&gt;制造商：四川九州电子科技股份有限公司&lt;/p&gt;&lt;p&gt;账号：073108833266A@tv&lt;/p&gt;&lt;p&gt;用户手机号：15616018406&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;6. 开发环境&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;7. 转化率，技术&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="160" y="470" width="450" height="1950" as="geometry" />
         </mxCell>
-        <mxCell id="_kd0HCN2-auPikmjFVuu-10" value="&lt;h1&gt;FAQ:&lt;/h1&gt;&lt;div&gt;1. 测试环境&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="_kd0HCN2-auPikmjFVuu-10" value="&lt;h1&gt;FAQ:&lt;/h1&gt;&lt;div&gt;1. 测试环境&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="600" y="470" width="190" height="120" as="geometry" />
         </mxCell>
       </root>
