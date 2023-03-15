@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-06T07:08:06.162Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="XQzJxlOAoGjM2CbkmOI9" version="20.8.23" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-03-15T04:04:29.230Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="YnVUxQIY3UjGZucTBjeb" version="20.8.23" type="github" pages="4">
   <diagram name="架构" id="efa7a0a1-bf9b-a30e-e6df-94a7791c09e9">
     <mxGraphModel dx="1242" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -350,6 +350,20 @@
         <mxCell id="NZiHGBPmWhvqg9JIHpQ4-1" value="收单&lt;br&gt;终端号" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="600" y="640" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="er6fUpslzvn8Oprez6U3-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.358;entryY=-0.029;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=diamondThin;endFill=0;" edge="1" parent="1" source="er6fUpslzvn8Oprez6U3-1" target="cSz9DEjXfmsqPm38V2Ll-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1020" y="-100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="er6fUpslzvn8Oprez6U3-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=diamondThin;endFill=0;" edge="1" parent="1" source="er6fUpslzvn8Oprez6U3-1" target="er6fUpslzvn8Oprez6U3-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="er6fUpslzvn8Oprez6U3-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;sys_organization&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;tenant_code&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;name&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="690" y="-300" width="205" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="er6fUpslzvn8Oprez6U3-5" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;sys_organization_merchant_store_map&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;tenant_code&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;name&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#D4E1F5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="-530" width="250" height="110" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -420,12 +434,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="97fH6V7-sPI3czxXvddr" name="支付">
-    <mxGraphModel dx="1380" dy="884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1380" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="NHE60Ce-i3VNeDLjx6jV-66" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="90" width="1150" height="160" as="geometry" />
+          <mxGeometry x="50" y="90" width="1160" height="160" as="geometry" />
         </mxCell>
         <mxCell id="NHE60Ce-i3VNeDLjx6jV-61" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="50" y="290" width="1150" height="240" as="geometry" />
@@ -601,7 +615,7 @@
           <mxGeometry x="50" y="290" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NHE60Ce-i3VNeDLjx6jV-67" value="网关" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="80" y="90" width="60" height="30" as="geometry" />
+          <mxGeometry x="50" y="90" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NHE60Ce-i3VNeDLjx6jV-69" value="account" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="90" y="680" width="110" height="30" as="geometry" />
@@ -641,6 +655,9 @@
         </mxCell>
         <mxCell id="NHE60Ce-i3VNeDLjx6jV-83" value="&lt;h1&gt;PD&lt;/h1&gt;&lt;div&gt;元数据、基础数据&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="899" y="600" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cU7no9KoAotk2B0ehXQZ-9" value="API" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="20" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
