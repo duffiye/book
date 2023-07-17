@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-17T01:26:44.925Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Ls2uWE7qOBOaOVxklbb7" version="21.2.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-07-17T01:33:33.232Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="TBcb3mxpb3Kg2lRhCHZA" version="21.2.1" type="github" pages="4">
   <diagram name="架构" id="efa7a0a1-bf9b-a30e-e6df-94a7791c09e9">
     <mxGraphModel dx="1242" dy="710" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -434,7 +434,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="97fH6V7-sPI3czxXvddr" name="支付">
-    <mxGraphModel dx="1553" dy="995" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="2722" dy="995" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -499,14 +499,16 @@
         <mxCell id="NHE60Ce-i3VNeDLjx6jV-5" value="API" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="930" y="20" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NHE60Ce-i3VNeDLjx6jV-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.808;entryY=-0.042;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="NHE60Ce-i3VNeDLjx6jV-8" target="NHE60Ce-i3VNeDLjx6jV-11" edge="1">
+        <mxCell id="NHE60Ce-i3VNeDLjx6jV-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NHE60Ce-i3VNeDLjx6jV-8" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="180" y="310" />
-              <mxPoint x="120" y="310" />
-              <mxPoint x="120" y="335" />
-              <mxPoint x="127" y="335" />
+              <mxPoint x="130" y="310" />
+              <mxPoint x="130" y="335" />
+              <mxPoint x="140" y="335" />
+              <mxPoint x="140" y="330" />
             </Array>
+            <mxPoint x="120" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NHE60Ce-i3VNeDLjx6jV-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NHE60Ce-i3VNeDLjx6jV-8" target="NHE60Ce-i3VNeDLjx6jV-17" edge="1">
@@ -678,6 +680,9 @@
         </mxCell>
         <mxCell id="80IuiW5mGFN0cDNScc5R-13" value="transaction" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="939" y="960" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="80IuiW5mGFN0cDNScc5R-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-430" y="570" width="420" height="610" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
