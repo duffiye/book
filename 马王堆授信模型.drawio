@@ -1,9 +1,102 @@
-<mxfile host="app.diagrams.net" modified="2023-11-06T02:44:39.609Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" version="21.6.5" etag="9s2KMlBopau5XLeYpwJN" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-06T03:04:47.179Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="o8sOSLOxG-C7Hk0vS8qh" version="21.6.5" type="github">
   <diagram name="第 1 页" id="8Q-OXCiBgAJ2egQZSu1Y">
-    <mxGraphModel>
+    <mxGraphModel dx="1242" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="DAT1oMZty0G-vi-sSZ33-2" value="市场额度" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DAT1oMZty0G-vi-sSZ33-3" value="协会额度" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DAT1oMZty0G-vi-sSZ33-4" value="经营户A额度" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DAT1oMZty0G-vi-sSZ33-5" value="采购商" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="270" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DAT1oMZty0G-vi-sSZ33-7" value="&lt;h1&gt;采购商额度&lt;/h1&gt;&lt;p&gt;1. 采购商的赊账的额度根据系统模型计算，包括采购商的征信信息、历史数据、协议意见、市场方&lt;/p&gt;&lt;p&gt;2. 额度组成包括通用额度（市场额度、协会额度）和具体在每一个不同的经营商户额度&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="900" y="220" width="210" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="DAT1oMZty0G-vi-sSZ33-8" value="市场额度" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DAT1oMZty0G-vi-sSZ33-9" value="协会额度" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DAT1oMZty0G-vi-sSZ33-10" value="经营户B额度" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DAT1oMZty0G-vi-sSZ33-12" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="660" width="30" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="DAT1oMZty0G-vi-sSZ33-16" value="经营户A" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="390" y="530" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="DAT1oMZty0G-vi-sSZ33-24" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="DAT1oMZty0G-vi-sSZ33-16">
+          <mxGeometry x="45" y="130" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DAT1oMZty0G-vi-sSZ33-25" value="赊销" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0284" y="20" relative="1" as="geometry">
+            <mxPoint x="160" y="680" as="sourcePoint" />
+            <mxPoint x="435" y="679.5" as="targetPoint" />
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DAT1oMZty0G-vi-sSZ33-26" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" source="DAT1oMZty0G-vi-sSZ33-24" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DAT1oMZty0G-vi-sSZ33-27" value="平台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="650" y="530" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="DAT1oMZty0G-vi-sSZ33-30" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="DAT1oMZty0G-vi-sSZ33-27">
+          <mxGeometry x="40" y="130" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DAT1oMZty0G-vi-sSZ33-31" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" target="DAT1oMZty0G-vi-sSZ33-30" parent="DAT1oMZty0G-vi-sSZ33-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-30" y="130" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DAT1oMZty0G-vi-sSZ33-32" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" source="DAT1oMZty0G-vi-sSZ33-30" parent="DAT1oMZty0G-vi-sSZ33-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-30" y="205" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DAT1oMZty0G-vi-sSZ33-28" value="担保" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="840" y="527" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="DAT1oMZty0G-vi-sSZ33-33" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="DAT1oMZty0G-vi-sSZ33-28">
+          <mxGeometry x="45" y="133" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DAT1oMZty0G-vi-sSZ33-34" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" target="DAT1oMZty0G-vi-sSZ33-33" parent="DAT1oMZty0G-vi-sSZ33-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-25" y="133" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DAT1oMZty0G-vi-sSZ33-35" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" source="DAT1oMZty0G-vi-sSZ33-33" parent="DAT1oMZty0G-vi-sSZ33-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-25" y="208" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DAT1oMZty0G-vi-sSZ33-29" value="保险&lt;br&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1010" y="530" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="DAT1oMZty0G-vi-sSZ33-36" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="DAT1oMZty0G-vi-sSZ33-29">
+          <mxGeometry x="45" y="130" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DAT1oMZty0G-vi-sSZ33-37" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" target="DAT1oMZty0G-vi-sSZ33-36" parent="DAT1oMZty0G-vi-sSZ33-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-25" y="130" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DAT1oMZty0G-vi-sSZ33-38" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" source="DAT1oMZty0G-vi-sSZ33-36" parent="DAT1oMZty0G-vi-sSZ33-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-25" y="205" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
